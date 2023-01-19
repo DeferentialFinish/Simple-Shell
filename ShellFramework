@@ -1,0 +1,87 @@
+/*
+ Created by: Nicholas Howland
+ Date: 2023-1-18
+ Purpose:
+  make a working shell that is easy to use and understand.
+  creates a framework for future projects that require a shell
+  based environment.
+
+ Errors and unexpected output
+  - There is an issue where if a command is supplied with spaces
+    the program will output two prompts as if it recieved two
+    inputs.
+  - entering will not return the prompt again but instead drops
+    user into a blank line.
+
+*/
+
+
+#include <iostream>
+using namespace std;
+
+/*
+ function to declare commands and their return codes
+ command is input and code is output otherwise the
+ command code is 0.
+*/
+int getCommand(string command)
+{
+ if(command=="exit"){
+  return 1;
+ }
+ else if(command=="help"){
+  return 2;
+ }
+ else if(command=="motd"){
+  return 3;
+ }
+ else if(command=="test"){
+  return 4;
+ }
+ else{
+  return 0;
+ }
+}
+
+void printHelp(){
+// cout << "" << endl;
+// cout << "motd                  print the message of the day" << endl;
+ cout << "exit                  leave the program" << endl;
+ cout << "help                  print avialable commands" << endl;
+ }
+
+
+int main()
+{
+ string name="";// username
+ string command="";// command string
+ int comCode=0;// command code mapped from getCommand function
+ string prompt="";// system prompt to be repeated
+ int exit=0; // initalize the exit break code used for the shell loop
+
+// begin setting up the shell
+ cout << "Simple Shell" << endl;// standard output
+ cout << "Name: ";// username prompt
+ cin >> name;// get username from user
+ cout << "use exit and help respectively\n\n"; // print the opening message
+ while(exit==0){// start the shell loop
+ string prompt=name+"> ";// create the prompt using the username
+ string command="";// clear the command string every time
+ cout << prompt;// print the prompt
+ cin >> command;// get the command from the user
+ comCode=getCommand(command);// get the command code using the current command
+  switch(comCode){// implement switch to make decisions about what to do
+   case 0:
+    cout << "\"" << command << "\" command not found try help\n" ;
+    break;
+   case 1:
+    exit=1;
+    break;
+   case 2:
+    printHelp();
+    break;
+   default:
+    break;
+  }
+ }
+}
