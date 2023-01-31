@@ -10,11 +10,11 @@
 #include <ctime>
 using namespace std;
 
-// grab a string from the user, implemented here for ease of updates
+// grab a string from the user, implemented here for ease of updates later on
 string getString(string pretext="")
 {
  string output="";
- cout << pretext;// prints the string supplied by the user, if none then no string is output
+ cout << pretext;// prints the string supplied to the function, if none then no string is output
  cin >> output;
  return output;
 }
@@ -22,8 +22,8 @@ string getString(string pretext="")
 unsigned getNum(string pretext="")
 {
  unsigned output=0;
- cout << pretext;// prints the string supplied by the user, if none then no string is output
- cin >> output; // grab the number
+ cout << pretext;// prints the string supplied to the function, if none then no string is output
+ cin >> output; // grab a number from the user
  while(cin.fail()){ // if cin fails to recieve a number then proceed with error checking
   cout << "please try again using a number\n";
   cin.clear();
@@ -40,16 +40,14 @@ char getChar()
  return output[0];
 }
 
-
-/*
-random number generator function
-*/
+//random number generator function
 void rng()
 {
 srand(time(NULL));
 cout << "The demigod of random numbers has heard your prayers... \nHere is a random number: " << rand() << endl;
 }
 
+// calculator function
 void calc()
 {
 // declaration of variubles
@@ -57,7 +55,7 @@ void calc()
  double y=0;
  char opt;
  int exit=1;
-// program explanation
+// program explanation output
  cout << "This is a simple calculator that preforms an operation on variubles assigned by you\n"<<endl;
 // user chooses an option
  cout << "it supports addition, subtraction, multiplication, and division\n";
@@ -67,7 +65,7 @@ void calc()
  cout << "operator(+-*/):";opt=getChar();
  cout << "y="; y=getNum();
  cout << "\n";// print a buffer line for better output
-// input checking
+// option checking
  if(opt==43){// addition operation
   cout << x << "+" << y << "=" << x+y << endl;
  }
@@ -92,6 +90,7 @@ void calc()
 
 
 // Message of the day function
+// might have to add in a set motd function
 void motd()
 {
 cout << "Step 1: Learn a thing\nStep 2: ???\nStep 2.5: Have fun (optional)\nStep 3: Profit\n";
