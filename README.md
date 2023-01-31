@@ -1,5 +1,5 @@
 # Simple CLI
-C++ Shell for learning C++
+C++ Shell
 
 ## Uses
 - Interactive Tooling
