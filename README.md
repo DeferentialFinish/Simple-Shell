@@ -1,11 +1,9 @@
 # Simple CLI
-C++ Shell framework for a general purpose command line. Overly commented
-for easy use by others and simple structure for easy adoption.
-
+C++ Shell for learning C++
 
 ## Uses
-- Providing a drop down shell for maintainance
 - Interactive Tooling
+- Learning tool
 
 ## Issues
   - There is an issue where if a command is supplied with spaces
