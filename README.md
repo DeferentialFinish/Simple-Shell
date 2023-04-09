@@ -16,6 +16,9 @@ This repository showcases my knowledge and familiarity with the following concep
 
 # Files and descriptions
 
+## RacingGame.cpp
+Simple racing game that utilizes files to customize the gameplay
+
 ## PetsImproved.cpp
 Use a custom library from the pets.cpp project to implement a way to create more than one pet per run time of the program. Be sure to download the file pets.h as well if you decide to compile and run this code.
 
