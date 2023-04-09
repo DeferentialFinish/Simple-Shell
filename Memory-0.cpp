@@ -1,6 +1,6 @@
 /*
  Modified By : Nicholas Howland
- Last modified : 2/23/2023
+ Last modified : 2/16/2023
  Program purpose :
  understand memory addressing and pointers part 1
 */
