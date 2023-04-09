@@ -90,6 +90,9 @@ Simple fortune teller program that uses a number provided by the user to output 
 
 # Concpets in code
 
+## Memory-0.cpp and Memory-1.cpp
+Demonstrate basic memory management concepts in C++
+
 ## Conditionals.cpp
 use logic operators to test math statements in C++
 
