@@ -15,6 +15,12 @@ This repository showcases my knowledge and familiarity with the following concep
 
 # Files and descriptions
 
+## Arrays.cpp
+Print out some information about a randomly generated array such as the average, the number of items below and above the average, the range of the array, and the minimum and maximum values in the array
+
+### Issues
+- No input no issues
+
 ## Fractions.cpp
 Output an improper fraction, mixed number, and decimal value of a faction supplied
 
