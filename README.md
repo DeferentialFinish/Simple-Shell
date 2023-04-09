@@ -1,5 +1,14 @@
 # C++ Portfolio
-This is a repository of assignments I completed for the spring semester of 2023 for one of my computer science courses
+This is a repository of assignments I completed for the spring semester of 2023 for one of my computer science courses. It showcases my knowledge and familiarity with the following concepts in programming:
+- variuble decleration and types
+- if/else statements
+- switch case statements
+- while loops
+- custom function declerations
+- input and output
+- memory management in c++
+- file access in c++
+
 
 ## Float_Check.cpp
 Allow the user to supply a number and determine the following
