@@ -15,22 +15,17 @@ This repository showcases my knowledge and familiarity with the following concep
 
 # Files and descriptions
 
+## PetsImproved.cpp
+Use a custom library from the pets.cpp project to implement a way to create more than one pet per run time of the program. Be sure to download the file pets.h as well if you decide to compile and run this code.
+
 ## Arrays.cpp
 Print out some information about a randomly generated array such as the average, the number of items below and above the average, the range of the array, and the minimum and maximum values in the array
-
-### Issues
-- No input no issues
 
 ## Fractions.cpp
 Output an improper fraction, mixed number, and decimal value of a faction supplied
 
-### Issues
-- No known issues
-
 ## Pet.cpp
 Create a virtual pet, similar to a tamagatchi using classes
-### Issues
-- No known issues
 
 ## PenTestersRun.cpp
 Create a game about something you are passionate about. I chose pen testing and cybersecurity as my general topic and based my game around a pentester on an assignment. Very simple and clunky but the code runs. For completing this task in under a week I was able to get a suprising amount done.
@@ -49,16 +44,12 @@ NIM improved by
 		- Removing the magic numbers
 		- Printing sybols that represent the remaining objects
 		- Adding a play again option
-### Issues
-  - No known issues
-
 
 ## Float_Check.cpp
 Allow the user to supply a number and determine the following
  - if the number is a decimal aka floating point number
  - if the number is even or odd
-### Issues
- - No known issues
+
 
 ## Simple_Calculator.cpp
 A very simple calculator in C++ that allows the user to do the following
