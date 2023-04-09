@@ -1,6 +1,12 @@
 # C++ Portfolio
 This is a repository of assignments I completed for the spring semester of 2023 for one of my computer science courses
 
+##Simple_Calculator.cpp
+A very simple calculator in C++ that allows the user to do the following
+ - enter two numbers then an operation to be preformed on those numbers
+ - detect divide by zero errors
+### Issues
+  - Could have looping functionality 
 
 ##Fourtune_Teller.cpp
 Simple fortune teller program that uses a number provided by the user to output a fortune.
