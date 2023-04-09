@@ -4,6 +4,7 @@ This is a repository of assignments I completed for the spring semester of 2023 
 This repository showcases my knowledge and familiarity with the following concepts in programming:
 - variuble decleration and types
 - public and private data members
+- Understand how conditionals work in c++
 - if/else statements
 - switch case statements
 - while loops
@@ -14,22 +15,50 @@ This repository showcases my knowledge and familiarity with the following concep
 - memory management in c++
 - file access in c++
 
-# Files and descriptions
 
-## RacingGame.cpp
-Simple racing game that utilizes files to customize the gameplay
+# Utilities
+
+## Calculator_Simple.cpp
+A very simple calculator in C++ that allows the user to do the following
+ - enter two numbers then an operation to be preformed on those numbers
+ - detect divide by zero errors
+### Issues
+  - Could have looping functionality 
+
+## Calculator_Looping.cpp
+Improve the calculator by allowing it to loop
+
+## Calculator_Surface.cpp
+Add surface calculation to the calculator program.
+
+## Square.cpp
+Print a square with a length and width defined by the user. Check input to verify the user entered a valid number.
+
+## RectangleClass.cpp
+Use a class to implement something similar to the Square program
+
+## Weather.cpp
+Use a file called weather.txt with a standard format to print weather information
+
+## ShellFramework.cpp
+not actually in the class but I found the basic structure helpful as a side project
+### Issues
+  - There is an issue where if a command is supplied with spaces
+    the program will output two prompts as if it recieved two
+    inputs.
+  - Only entering the return charicter will not return the prompt 
+    again but instead drops cursor onto a blank line.
+
+# Games
+
+## Pet.cpp
+Create a virtual pet, similar to a tamagatchi using classes
 
 ## PetsImproved.cpp
 Use a custom library from the pets.cpp project to implement a way to create more than one pet per run time of the program. Be sure to download the file pets.h as well if you decide to compile and run this code.
 
-## Arrays.cpp
-Print out some information about a randomly generated array such as the average, the number of items below and above the average, the range of the array, and the minimum and maximum values in the array
-
-## Fractions.cpp
-Output an improper fraction, mixed number, and decimal value of a faction supplied
-
-## Pet.cpp
-Create a virtual pet, similar to a tamagatchi using classes
+## RacingGame.cpp
+Simple racing game that utilizes files to customize the gameplay
 
 ## PenTestersRun.cpp
 Create a game about something you are passionate about. I chose pen testing and cybersecurity as my general topic and based my game around a pentester on an assignment. Very simple and clunky but the code runs. For completing this task in under a week I was able to get a suprising amount done.
@@ -49,18 +78,6 @@ NIM improved by
 		- Printing sybols that represent the remaining objects
 		- Adding a play again option
 
-## Float_Check.cpp
-Allow the user to supply a number and determine the following
- - if the number is a decimal aka floating point number
- - if the number is even or odd
-
-
-## Simple_Calculator.cpp
-A very simple calculator in C++ that allows the user to do the following
- - enter two numbers then an operation to be preformed on those numbers
- - detect divide by zero errors
-### Issues
-  - Could have looping functionality 
 
 ## Fourtune_Teller.cpp
 Simple fortune teller program that uses a number provided by the user to output a fortune.
@@ -70,14 +87,26 @@ Simple fortune teller program that uses a number provided by the user to output 
   - Could use a file to print fortunes from
   - lucky number could be more randomly generated
 
-## ShellFramework.cpp
-not actually in the class but I found the basic structure helpful as a side project
-### Issues
-  - There is an issue where if a command is supplied with spaces
-    the program will output two prompts as if it recieved two
-    inputs.
-  - Only entering the return charicter will not return the prompt 
-    again but instead drops cursor onto a blank line.
+
+# Concpets in code
+
+## Conditionals.cpp
+use logic operators to test math statements in C++
+
+## Ascii.cpp
+Use cout to display some ascii art to terminal
+
+## Arrays.cpp
+Print out some information about a randomly generated array such as the average, the number of items below and above the average, the range of the array, and the minimum and maximum values in the array
+
+## Fractions.cpp
+Output an improper fraction, mixed number, and decimal value of a faction supplied
+
+## Float_Check.cpp
+Allow the user to supply a number and determine the following
+ - if the number is a decimal aka floating point number
+ - if the number is even or odd
+
 
 
 ## Disclaimer
