@@ -3,7 +3,7 @@
  Date:
  Purpose:
  create a simple calculator in C++ that allows the user to do the following
- - enter a number of their choice, an oporator, then another number
+ - enter two numbers then an operation to be preformed on those numbers
  - detect divide by zero errors
 */
 #include <iostream>
