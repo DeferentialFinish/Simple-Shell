@@ -1,5 +1,7 @@
 # C++ Portfolio
-This is a repository of assignments I completed for the spring semester of 2023 for one of my computer science courses. It showcases my knowledge and familiarity with the following concepts in programming:
+This is a repository of assignments I completed for the spring semester of 2023 for one of my computer science courses. The premis of the course was that the user would supply only expected input to the programs, that being said... just about every program using C++ in this repository will have a buffer overflow vulnerability or produce unexpected output when improper input is supplied to the program. In order to complete the assignments on time it was not fesable to create input validation for every program, however in some places it was possible.
+
+This repository showcases my knowledge and familiarity with the following concepts in programming:
 - variuble decleration and types
 - public and private data members
 - if/else statements
@@ -11,10 +13,18 @@ This is a repository of assignments I completed for the spring semester of 2023 
 - memory management in c++
 - file access in c++
 
+# Files and descriptions
+
+## Fractions.cpp
+Output an improper fraction, mixed number, and decimal value of a faction supplied
+
+### Issues
+- No known issues
+
 ## Pet.cpp
 Create a virtual pet, similar to a tamagatchi using classes
 ### Issues
-- no known issues
+- No known issues
 
 ## PenTestersRun.cpp
 Create a game about something you are passionate about. I chose pen testing and cybersecurity as my general topic and based my game around a pentester on an assignment. Very simple and clunky but the code runs. For completing this task in under a week I was able to get a suprising amount done.
