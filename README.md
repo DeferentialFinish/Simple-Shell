@@ -9,6 +9,7 @@ This repository showcases my knowledge and familiarity with the following concep
 - while loops
 - custom function declerations
 - custom class decleration and use
+- create and use custom libraries
 - input and output
 - memory management in c++
 - file access in c++
