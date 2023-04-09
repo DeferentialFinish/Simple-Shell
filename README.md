@@ -10,6 +10,19 @@ This is a repository of assignments I completed for the spring semester of 2023 
 - file access in c++
 
 
+## NIM.cpp
+When supplied with a file and asked to improve the following I was able to complete the project by the deadline.
+NIM improved by
+		- Adding new outputs for wins and losses
+		- Printing the game rules
+		- adding exciting commentary
+		- Removing the magic numbers
+		- Printing sybols that represent the remaining objects
+		- Adding a play again option
+### Issues
+  - No known issues
+
+
 ## Float_Check.cpp
 Allow the user to supply a number and determine the following
  - if the number is a decimal aka floating point number
@@ -40,3 +53,7 @@ not actually in the class but I found the basic structure helpful as a side proj
     inputs.
   - Only entering the return charicter will not return the prompt 
     again but instead drops cursor onto a blank line.
+
+
+#### Disclaimer
+Understand that each and every program is designed to demonstrate a concept in programming and none of this code should be used for in production purposes. The classes I took did not cover secure coding practices but was mearly an introduction to C++ as a language. It is most likely that every single program in this repository that accepts input has a buffer overflow vulnerability.
