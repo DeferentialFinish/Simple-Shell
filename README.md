@@ -1,13 +1,20 @@
 # C++ Portfolio
 This is a repository of assignments I completed for the spring semester of 2023 for one of my computer science courses. It showcases my knowledge and familiarity with the following concepts in programming:
 - variuble decleration and types
+- public and private data members
 - if/else statements
 - switch case statements
 - while loops
 - custom function declerations
+- custom class decleration and use
 - input and output
 - memory management in c++
 - file access in c++
+
+## Pet.cpp
+Create a virtual pet, similar to a tamagatchi using classes
+### Issues
+- no known issues
 
 ## PenTestersRun.cpp
 Create a game about something you are passionate about. I chose pen testing and cybersecurity as my general topic and based my game around a pentester on an assignment. Very simple and clunky but the code runs. For completing this task in under a week I was able to get a suprising amount done.
