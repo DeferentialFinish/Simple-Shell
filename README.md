@@ -2,6 +2,14 @@
 This is a repository of assignments I completed for the spring semester of 2023 for one of my computer science courses
 
 
+##Fourtune_Teller.cpp
+Simple fortune teller program that uses a number provided by the user to output a fortune.
+
+### Issues
+  - Output and fortunes are kind of wierd.
+  - Could use a file to print fortunes from
+  - lucky number could be more randomly generated
+
 ## ShellFramework.cpp
 not actually in the class but I found the basic structure helpful as a side project
 ### Issues
