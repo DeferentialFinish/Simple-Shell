@@ -9,6 +9,13 @@ This is a repository of assignments I completed for the spring semester of 2023 
 - memory management in c++
 - file access in c++
 
+## PenTestersRun.cpp
+Create a game about something you are passionate about. I chose pen testing and cybersecurity as my general topic and based my game around a pentester on an assignment. Very simple and clunky but the code runs. For completing this task in under a week I was able to get a suprising amount done.
+
+### Issues
+- Guard mechanics
+- Could display current player location and guard location on the minimap
+- Output and input can be confusing and clunky
 
 ## NIM.cpp
 When supplied with a file and asked to improve the following I was able to complete the project by the deadline.
